@@ -12,7 +12,6 @@ RUN if [ "$NODE_ENV" = "development" ]; \
       fi;
 
 COPY . .
-COPY .env.production .env
 
 ENV PORT 4545
 
