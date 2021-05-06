@@ -6,6 +6,7 @@ services:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
   node-app:
     build: .
+    image: rowin1125/docker-trail
     environment:
       - PORT=4545
     depends_on:
