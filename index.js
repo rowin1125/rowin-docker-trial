@@ -56,7 +56,7 @@ mongoose
 
 app.get("/api/v1", (req, res) => {
   console.log("I ran");
-  res.send("Hello there, we are live 🐶🚀");
+  res.send("Hello there, we are live --- really 🚀📡🔥");
 });
 
 const port = process.env.PORT || 4545;
